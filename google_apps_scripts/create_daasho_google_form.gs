@@ -24,9 +24,10 @@ function createDaashoHiringForm() {
   );
   
   form.setConfirmationMessage(
-    "✅ Thank you for applying for the BDE role at Daasho!\n\n" +
+    "✅ Thank you for applying for the Business Development Executive (BDE) role at Daasho!\n\n" +
     "Our HR Recruitment Team will review your profile and contact you via Call / WhatsApp within 24 hours.\n" +
-    "Direct HR Contact: +91 9787806366 | careers@daasho.com"
+    "Direct HR Contact: Mr. Mohamed Yasar (+91 9025943184) | mohamed.yasar@daasho.com\n" +
+    "Official Website: https://daasho.com"
   );
   form.setAllowResponseEdits(false);
   form.setProgressBar(true);
@@ -190,7 +191,7 @@ function onCandidateFormSubmit(e) {
     candidate[itemResponses[i].getItem().getTitle()] = itemResponses[i].getResponse();
   }
 
-  var hrEmail = "mohammedyasar7868908@gmail.com";
+  var hrEmail = "mohamed.yasar@daasho.com, mohammedyasar7868908@gmail.com";
   var candidateName = candidate["1. Full Name"] || "Candidate";
   var subject = "🚀 [Daasho BDE Application] " + candidateName + " - " + (candidate["4. Current Location / District"] || "Tamil Nadu");
 
