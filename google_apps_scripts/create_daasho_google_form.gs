@@ -1,6 +1,7 @@
 /**
- * Daasho Technologies - Candidate Application Form Generator
- * Creates a professional Google Form and links all responses directly to Google Sheet:
+ * Daasho Technologies Private Limited - BDE Recruitment Form Generator
+ * Creates an official Google Form for Business Development Executive (Field Sales)
+ * and links responses directly to Google Sheet:
  * https://docs.google.com/spreadsheets/d/1kxEeoG4dVSXgl5qfDTHGf3LlyEPgMQjrlAjvWFzzZ28/edit
  */
 
@@ -8,94 +9,127 @@ function createDaashoHiringForm() {
   var sheetId = "1kxEeoG4dVSXgl5qfDTHGf3LlyEPgMQjrlAjvWFzzZ28";
 
   // 1. Create Form
-  var form = FormApp.create("Daasho - Official Candidate Job Application Form");
+  var form = FormApp.create("Daasho - Business Development Executive (BDE) Application Form");
   form.setDescription(
-    "Welcome to Daasho Technologies Private Limited Careers.\n\n" +
-    "We are hiring Business Development Executives (Field Sales) & HR Operations team in Chennai.\n" +
-    "Please fill in your details accurately. Shortlisted candidates will be contacted via WhatsApp/Call for immediate interviews."
+    "Welcome to Daasho Technologies Careers (Everyday Delivery Platform in Chennai)!\n\n" +
+    "Role: Business Development Executive (Field Sales)\n" +
+    "Location: Chennai, Tamil Nadu\n" +
+    "Experience: 0 - 3 Years (Freshers & Experienced Welcome)\n\n" +
+    "Key Mandates:\n" +
+    "• Fluent Tamil (Mandatory) + Basic English\n" +
+    "• Passion for on-ground Field Sales & Merchant Onboarding\n" +
+    "• Based in Chennai or anywhere in Tamil Nadu (Ready to relocate to Chennai)\n" +
+    "• Two-wheeler with a valid driving license\n\n" +
+    "Please fill in your details below. Shortlisted candidates will receive an interview call/WhatsApp within 24 hours."
   );
+  
   form.setConfirmationMessage(
-    "✅ Thank you for applying to Daasho!\n\n" +
-    "Our HR Recruitment Team will review your application and contact you via WhatsApp / Call within 24 hours.\n" +
-    "Fast-track review contact: +91 9787806366"
+    "✅ Thank you for applying for the BDE role at Daasho!\n\n" +
+    "Our HR Recruitment Team will review your profile and contact you via Call / WhatsApp within 24 hours.\n" +
+    "Direct HR Contact: +91 9787806366 | careers@daasho.com"
   );
   form.setAllowResponseEdits(false);
   form.setProgressBar(true);
 
-  // 2. Add Questions
+  // 2. Add Questions Tailored Strictly for BDE Role
+
   // Q1: Full Name
   form.addTextItem()
     .setTitle("1. Full Name")
-    .setHelpText("Enter your legal name as per government ID")
+    .setHelpText("Enter your official name as per Aadhaar / Government ID")
     .setRequired(true);
 
   // Q2: Mobile Number
   form.addTextItem()
     .setTitle("2. Mobile Number (WhatsApp Active)")
-    .setHelpText("Active 10-digit number for interview scheduling & WhatsApp updates")
+    .setHelpText("10-digit mobile number for interview calls and WhatsApp coordination")
     .setRequired(true);
 
   // Q3: Email Address
   form.addTextItem()
     .setTitle("3. Email Address")
-    .setHelpText("Your primary email for offer letter & interview call letter")
+    .setHelpText("Your primary email address for interview schedule and offer letter")
     .setRequired(true);
 
-  // Q4: Role Applying For
+  // Q4: Current Location / District in Tamil Nadu
+  form.addTextItem()
+    .setTitle("4. Current Location / District")
+    .setHelpText("e.g. Chennai (specify area), Coimbatore, Madurai, Trichy, Salem, Tirunelveli, etc.")
+    .setRequired(true);
+
+  // Q5: Ready to Relocate to Chennai
   form.addMultipleChoiceItem()
-    .setTitle("4. Position You Are Applying For")
+    .setTitle("5. Are you currently in Chennai, or ready to relocate to Chennai for this role?")
+    .setHelpText("Daasho's BDE ground operations are based across Chennai")
     .setChoiceValues([
-      "Business Development Executive (Field Sales - Chennai)",
-      "Field Sales Executive (Merchant Onboarding)",
-      "HR Executive / Recruiter",
-      "Delivery Operations & Fleet Supervisor"
+      "Yes, I am already residing in Chennai",
+      "Yes, I am from Tamil Nadu and ready to relocate to Chennai immediately",
+      "No, cannot relocate to Chennai"
     ])
     .setRequired(true);
 
-  // Q5: Location / Area in Chennai
-  form.addTextItem()
-    .setTitle("5. Current Location / Area in Chennai")
-    .setHelpText("e.g. Guindy, Alwarpet, Velachery, Anna Nagar, Tambaram, etc.")
+  // Q6: Language Proficiency (Tamil is Mandatory)
+  form.addMultipleChoiceItem()
+    .setTitle("6. Are you fluent in Tamil? (Mandatory Requirement)")
+    .setHelpText("Required for communicating and pitching to neighborhood merchant owners across Chennai")
+    .setChoiceValues([
+      "Yes, Fluent / Native Tamil Speaker (+ English / other languages)",
+      "Yes, Fluent in Tamil only",
+      "Basic Tamil",
+      "No Tamil"
+    ])
     .setRequired(true);
 
-  // Q6: Total Sales / Work Experience
+  // Q7: Total Work Experience (0 to 3 Years)
   form.addMultipleChoiceItem()
-    .setTitle("6. Total Work Experience")
+    .setTitle("7. Total Work Experience")
+    .setHelpText("We welcome energetic freshers as well as experienced sales executives (0 - 3 Years)")
     .setChoiceValues([
-      "Fresher (Excited to learn & earn high incentives)",
-      "6 Months - 1 Year",
-      "1 - 2 Years",
-      "2 - 3 Years",
+      "Fresher (0 Years - Highly interested in field sales & fast learning)",
+      "0 to 1 Year (Field Sales / Customer Facing / Retail)",
+      "1 to 2 Years (BDE / Merchant Onboarding / FMCG / Delivery)",
+      "2 to 3 Years (Experienced Sales Professional)",
       "3+ Years"
     ])
     .setRequired(true);
 
-  // Q7: Two-Wheeler & License
+  // Q8: Field Sales Interest
   form.addMultipleChoiceItem()
-    .setTitle("7. Do you have a Two-Wheeler (Bike/Scooter) with a valid Driving License?")
-    .setHelpText("Required for Field Sales & Merchant visits across Chennai")
+    .setTitle("8. Do you have strong interest / experience in Field Sales?")
+    .setHelpText("Visiting local restaurants, grocery stores & shops, pitching Daasho zero-commission model and onboarding them")
     .setChoiceValues([
-      "Yes, I have a two-wheeler and valid driving license",
-      "I have a driving license, bike will be arranged soon",
+      "Yes, I love field sales, meeting merchants and closing deals on-ground",
+      "Yes, I am willing to learn and excited about field sales",
+      "No, I am only looking for desk/office jobs"
+    ])
+    .setRequired(true);
+
+  // Q9: Two-Wheeler & License
+  form.addMultipleChoiceItem()
+    .setTitle("9. Do you own a Two-Wheeler (Bike/Scooter) with a valid Driving License?")
+    .setHelpText("Mandatory for daily field movement across assigned Chennai territories")
+    .setChoiceValues([
+      "Yes, I have a two-wheeler and a valid driving license",
+      "I have a driving license; two-wheeler will be arranged before joining",
       "No"
     ])
     .setRequired(true);
 
-  // Q8: Joining Time
+  // Q10: Notice Period / Availability
   form.addMultipleChoiceItem()
-    .setTitle("8. How soon can you join if selected?")
+    .setTitle("10. When can you join Daasho if selected?")
     .setChoiceValues([
-      "Immediate Joiner (Today / Tomorrow)",
-      "Within 3 - 5 Days",
-      "1 Week",
-      "15 Days"
+      "Immediate Joiner (Within 1 - 2 Days)",
+      "Within 7 Days",
+      "Within 15 Days",
+      "More than 15 Days"
     ])
     .setRequired(true);
 
-  // Q9: Resume or LinkedIn Profile
+  // Q11: Resume / LinkedIn Link
   form.addTextItem()
-    .setTitle("9. Resume Link (Google Drive) or LinkedIn Profile URL")
-    .setHelpText("Paste your LinkedIn profile link or public Google Drive link to your resume")
+    .setTitle("11. Resume Link (Google Drive) or LinkedIn Profile URL")
+    .setHelpText("Paste your public Google Drive resume link or LinkedIn profile URL (optional)")
     .setRequired(false);
 
   // 3. Connect to the Google Sheet
@@ -110,7 +144,7 @@ function createDaashoHiringForm() {
   var editUrl = form.getEditUrl();
 
   Logger.log("\n=======================================================");
-  Logger.log("🎉 DAASHO HIRING FORM READY!");
+  Logger.log("🎉 DAASHO BDE HIRING FORM READY!");
   Logger.log("🔗 Public Candidate Application URL: " + publishedUrl);
   Logger.log("✏️ Admin Edit Form URL:              " + editUrl);
   Logger.log("📊 Connected Google Sheet:           https://docs.google.com/spreadsheets/d/" + sheetId + "/edit");

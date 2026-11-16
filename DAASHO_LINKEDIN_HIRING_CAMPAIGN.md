@@ -1,94 +1,37 @@
-# 🚀 Daasho Technologies - High-Reach LinkedIn Hiring Campaign Guide
+# 🚀 Daasho Technologies - BDE Hiring Campaign (Official Guide)
 
-This repository contains the complete hiring campaign, official post copies, brand assets, and automated Google Form & Sheet connection workflows for **Daasho Technologies Private Limited** (Chennai, Tamil Nadu).
-
----
-
-## 🎨 1. Brand Identity & Poster Creatives
-- **Primary Brand Color:** Royal Blue (`#0B3C95` / `#0052CC`)
-- **Accent Color:** Energetic Warm Yellow (`#FFC107` / `#FFB800`)
-- **Background / Text:** Clean Crisp White (`#FFFFFF`) & Dark Navy
-- **Official Posters Included in `/creatives`:**
-  - `creatives/Daasho_BDE_Hiring_Poster.jpg` (Business Development Executive - Field Sales)
-  - `creatives/Daasho_HR_Executive_Hiring_Poster.jpg` (HR Executive - Talent Acquisition)
+This repository contains the complete hiring campaign, official high-reach LinkedIn post copies, branded creatives, and automated Google Form & Sheet integration strictly for the **Business Development Executive (Field Sales)** role at **Daasho Technologies Private Limited** (Chennai, Tamil Nadu).
 
 ---
 
-## 📝 2. LinkedIn Post Copies (Viral & High-Reach Formats)
-
-### 💼 Post 1: Business Development Executive (Field Sales - Chennai)
-*Attach: `creatives/Daasho_BDE_Hiring_Poster.jpg`*
-
-```text
-🚀 WE ARE HIRING: Business Development Executive (Field Sales) | Daasho 🛍️🍔
-
-Chennai-la fast-growing delivery platform-aana Daasho-la energetic sales professionals-kku exciting career opportunity!
-
-Ungalukku local restaurants, grocery stores & retail merchants kitta pesi onboard panra passion irukka? Come join the Daasho Growth Team! 🎯
-
-📍 Location: Chennai, Tamil Nadu (Field Sales)
-💼 Experience: 0 - 3 Years (Freshers with great communication are welcome!)
-🗣️ Language: Tamil (Mandatory) + Basic English
-🏍️ Requirement: Two-wheeler + Valid Driving License
-
-💰 What We Offer:
-• Attractive Fixed Salary + Industry-Best Monthly Incentives
-• Daily Fuel / Travel Allowance
-• Fast-track promotion to Team Lead within 6-12 months
-• Dynamic startup environment & steep learning curve
-
-🎯 Key Responsibilities:
-• Visiting local restaurants & grocery merchants in your assigned territory.
-• Pitching Daasho's zero-commission merchant plans and signing partnerships.
-• Merchant app onboarding, menu setup & initial order flow assistance.
-• Building strong long-term relationships with neighborhood business owners.
-
-🔗 How to Apply?
-👉 Fill out this 1-Minute Application Form: [Paste Google Form URL Here]
-📲 Or Fast-track WhatsApp your resume directly to: +91 9787806366
-
-Know someone actively looking for a sales role in Chennai? Tag them in the comments below! 👇
-
-#HiringAlert #Daasho #ChennaiJobs #FieldSales #BusinessDevelopment #BDEJobs #SalesExecutive #TamilNaduHiring #ImmediateJoiner #StartupJobs
-```
+## 📌 Candidate Requirements Checklist (Mandatory)
+- **Role:** Business Development Executive (BDE) - Field Sales
+- **Experience:** 0 to 3 Years (Passionate Freshers & Experienced Sales Executives)
+- **Location:** Chennai, Tamil Nadu (Candidates across Tamil Nadu ready to relocate to Chennai are welcome)
+- **Language:** **Tamil (Mandatory)** + Basic English (other languages are an added bonus)
+- **Domain Interest:** Strong passion for on-ground Field Sales, merchant acquisition, and restaurant/store onboarding
+- **Logistics:** Two-Wheeler (Bike/Scooter) with a valid Driving License
+- **Availability:** Immediate joiners / within 7–15 days preferred
 
 ---
 
-### 👥 Post 2: HR / Talent Acquisition Executive (Recruiter - Chennai)
-*Attach: `creatives/Daasho_HR_Executive_Hiring_Poster.jpg`*
+## 🎨 Official Brand Posters (Ready to Attach on LinkedIn)
+All graphics follow Daasho's official brand palette:
+- **Primary Color:** Royal Blue (`#0B3C95`)
+- **Accent Color:** Warm Energetic Yellow (`#FFC107`)
+- **Backgrounds:** Clean White (`#FFFFFF`) & Navy Gradient
 
-```text
-📢 WE ARE EXPANDING: HR Executive (Talent Acquisition) at Daasho! 👥✨
-
-Daasho is scaling its operations across Chennai! We are looking for a proactive, people-first HR Recruiter to drive bulk hiring for our Field Sales & Operations workforce.
-
-📍 Location: Chennai
-💼 Experience: 1 - 3 Years in High-Volume Sourcing / Field Sales Hiring
-🗣️ Languages: Fluent Tamil & English
-
-🎯 What You Will Do:
-• Sourcing high-potential BDEs and Field Executives via LinkedIn, portals & job groups.
-• Conducting quick screening, face-to-face/virtual interviews, and rolling out offers.
-• Managing smooth onboarding, candidate documentation, and attendance pipelines.
-• Partnering with city growth heads to meet weekly hiring targets.
-
-✅ Ideal Candidate:
-• Experience in high-volume, startup, or logistics/quick-commerce hiring.
-• Excellent candidate relationship & negotiation skills.
-• Ready to join immediately.
-
-🔗 Apply Now:
-👉 Application Form: [Paste Google Form URL Here]
-📲 HR Direct WhatsApp: +91 9787806366
-
-#HRExecutive #TalentAcquisition #RecruiterJobs #ChennaiHR #DaashoCareers #StartupHiring #HiringNow
-```
+### Poster Files:
+1. `creatives/Daasho_BDE_Official_Poster.jpg` *(Ultra-Crisp 4:5 Portrait Ratio, 1080x1350 - Recommended for Mobile Feed)*
+2. `creatives/Daasho_BDE_Hiring_Poster.jpg` *(Visual Illustration Format)*
+3. `creatives/lockup-transparent.png` *(Official Transparent Logo)*
 
 ---
 
-### 🔥 Post 3: Authentic Daasho HR Viral Template (Directly Replicated from Daasho Recruitment Team)
-*This format is modeled directly from live LinkedIn posts by Daasho's Talent Acquisition team (Naveen Kumar Sekhar & Varnika Shandilya) with verified high engagement!*
-*Attach: `creatives/Daasho_BDE_Hiring_Poster.jpg`*
+## 📝 High-Reach LinkedIn Post Copies (BDE Role ONLY)
+
+### 🔥 Post 1: The Authentic Daasho HR Viral Hook (Modeled Directly on Daasho Recruitment Team)
+*Attach: `creatives/Daasho_BDE_Official_Poster.jpg`*
 
 ```text
 Daasho is different. 🚀
@@ -97,45 +40,124 @@ We’re a fast-growing food delivery & quick commerce platform launching soon in
 
 Build what Chennai will use every day. Honest prices. Zero commission. Real impact.
 
+We are urgently hiring Business Development Executives (Field Sales) across Chennai! 🎯
+
 🔥 Role: Business Development Executive (Field Sales)
-📍 Location: Chennai
-👤 Experience: 0 – 3 years (freshers / field sales / food delivery / FMCG / fintech preferred)
-💰 Salary: ₹25,000+ per month + attractive incentives
+📍 Location: Chennai (Open to candidates across Tamil Nadu willing to relocate!)
+👤 Experience: 0 – 3 years (freshers with high energy / field sales / food delivery / FMCG / fintech preferred)
+💰 Compensation: ₹25,000+ per month + attractive monthly incentives
+⛽ Daily Fuel & Travel Allowance
 🏍️ Two-wheeler and valid licence required
-🗣️ Tamil (Mandatory) & English
+🗣️ Language: Tamil (Mandatory) + English
 
 What you'll do:
-✅ Onboard restaurants and local grocery stores onto Daasho
-✅ Build strong, lasting relationships with merchants
-✅ Own your area and grow with a brand at launch stage
+✅ Onboard neighborhood restaurants, grocery stores & local merchants onto Daasho
+✅ Pitch Daasho's zero-commission merchant partner model
+✅ Build strong, lasting relationships with store owners
+✅ Own your territory and scale with the brand from launch stage
 
 What we offer:
-🏥 Medical insurance
+🏥 Comprehensive Medical Insurance
 🏦 PF (Provident Fund)
-📈 Fast-track career growth in a hyper-growth startup
+📈 Fast-track career growth in a hyper-growth tech startup
 
-🔗 How to apply:
-👉 1-Minute Candidate Form: [Paste Google Form URL Here]
-📲 Fast-track WhatsApp: +91 9787806366
+🔗 How to Apply:
+👉 1-Minute Candidate Form: [PASTE_YOUR_GOOGLE_FORM_URL_HERE]
+📲 Fast-track WhatsApp: +91 9787806366 | careers@daasho.com
+🌐 Website: https://daasho.com
 
-Know the right person looking for a career launchpad in Chennai? Tag them below! 🙌
+Know someone looking for a great sales launchpad in Chennai? Tag them below! 🙌
 
-#WeAreHiring #BDEHiring #BusinessDevelopmentExecutive #SalesJobs #FieldSales #ChennaiJobs #ChennaiHiring #ImmediateJoiners #SalesHiring #FreshersWelcome #JobOpportunity #Recruitment #JobOpening #Daasho
+#WeAreHiring #BDEHiring #BusinessDevelopmentExecutive #SalesJobs #FieldSales #ChennaiJobs #ChennaiHiring #TamilNaduJobs #ImmediateJoiners #SalesHiring #FreshersWelcome #JobOpportunity #Recruitment #JobOpening #Daasho
 ```
 
 ---
 
-## 📊 3. Automated Google Form & Google Sheet Integration
+### 🚀 Post 2: Direct Chennai Launch Callout
+*Attach: `creatives/Daasho_BDE_Official_Poster.jpg`*
 
-### Script Path:
+```text
+Build what Chennai will use every day. 🚀
+
+Daasho is expanding its Field Sales & Merchant Onboarding team in Chennai. If you love being on the field, connecting with local business owners, and driving real results, this is for you!
+
+💼 Position: Business Development Executive (Field Sales)
+📍 Location: Chennai, Tamil Nadu
+✈️ Relocation: Candidates from Coimbatore, Madurai, Trichy, Salem or across Tamil Nadu ready to relocate to Chennai are welcome!
+⏳ Experience: 0 - 3 Years (Freshers welcome!)
+🗣️ Language: Fluent Tamil (Mandatory)
+🛵 Two-Wheeler + Driving License: Mandatory
+
+💰 What's in it for you?
+• Fixed Salary (₹25,000+/mo) + Unlimited Earning Potential through Monthly Incentives
+• Daily Fuel Reimbursements
+• Medical Insurance + PF
+• Direct mentorship from startup leadership
+
+🎯 Ready to make an impact?
+👉 Apply via this quick form: [PASTE_YOUR_GOOGLE_FORM_URL_HERE]
+📲 Or WhatsApp your profile to: +91 9787806366
+
+Tag a friend who is actively looking for sales openings in Chennai! 👇
+
+#ChennaiHiring #BDEJobs #FieldSalesExecutive #MerchantOnboarding #ChennaiSales #DaashoCareers #FreshersJobsChennai #TamilJobs #StartupHiring
+```
+
+---
+
+### 🤝 Post 3: High-Engagement Community Format (Tanglish / Tamil Connection)
+*Attach: `creatives/Daasho_BDE_Official_Poster.jpg`*
+
+```text
+Chennai & Tamil Nadu Sales Rockstars! 📢 Daasho-la Business Development Executive (Field Sales) role-kku urgent hiring nadakkuthu! 🛵💨
+
+Ungalukku local restaurants & grocery merchants kitta direct-ah pesi onboard panra passion irukka? Freshers or sales experience irukku-na, come join our launch team!
+
+📌 Eligibility:
+✔ 0 - 3 Years Experience (Freshers can also apply!)
+✔ Chennai-la work panna ready-ah irukkanum (Candidates from any district in TN willing to relocate to Chennai are welcome!)
+✔ Tamil fluency compulsory (Mandatory)
+✔ Two-wheeler + Valid Driving License must
+
+🎁 Perks & Benefits:
+• ₹25,000+ Fixed Salary + High Monthly Performance Incentives
+• Daily Fuel / Travel Allowance
+• Medical Insurance + PF
+• Quick career growth to Team Lead
+
+🔗 Application Link:
+👉 Quick Google Form: [PASTE_YOUR_GOOGLE_FORM_URL_HERE]
+📲 WhatsApp your Resume: +91 9787806366
+
+Ungal friends yaarachum Chennai-la sales job theduraangala? Intha post-la tag pannunga! 👇
+
+#Daasho #ChennaiJobs #FieldSales #SalesJobs #BDEHiring #TamilNaduHiring #ImmediateJoiner #FreshersWelcome
+```
+
+---
+
+## 📊 Google Form & Google Sheet Integration Guide
+
+### Script:
 `google_apps_scripts/create_daasho_google_form.gs`
 
-### Deployment Steps:
-1. Open your [Google Apps Script Project](https://script.google.com/home/projects).
-2. Create a new script file and paste `create_daasho_google_form.gs`.
-3. Run `createDaashoHiringForm()`.
-4. It will:
-   - Generate the official 9-question Daasho Application Form.
-   - Automatically link responses to Google Sheet:
-     `https://docs.google.com/spreadsheets/d/1kxEeoG4dVSXgl5qfDTHGf3LlyEPgMQjrlAjvWFzzZ28/edit`
-   - Output the Public Application URL to put on your LinkedIn posts!
+### Target Google Sheet:
+`https://docs.google.com/spreadsheets/d/1kxEeoG4dVSXgl5qfDTHGf3LlyEPgMQjrlAjvWFzzZ28/edit`
+
+### 1-Minute Deployment Instructions:
+1. Open [Google Apps Script](https://script.google.com/home/projects).
+2. Click **New Project**.
+3. Copy and paste the entire code from [`google_apps_scripts/create_daasho_google_form.gs`](google_apps_scripts/create_daasho_google_form.gs).
+4. Click **Run** (`createDaashoHiringForm`).
+5. Authorize Google permissions once.
+6. The script will automatically:
+   - Create the form with all 11 strict BDE screening questions (Tamil mandatory check, relocation check, field sales passion check, bike check, experience check).
+   - Link responses directly to your Google Sheet (`1kxEeoG4dVSXgl5qfDTHGf3LlyEPgMQjrlAjvWFzzZ28`).
+   - Log the **Public Candidate URL**. Copy this link and paste it into `[PASTE_YOUR_GOOGLE_FORM_URL_HERE]` in your LinkedIn posts!
+
+---
+
+## 🔐 Credentials & Security
+- **App Password:** Configured for `Daasho App Manager` (`gbld xjpa rwcu tkst`).
+- **Path:** `credentials/daasho_credentials.json` (secured with `.gitignore`).
+- **GitHub:** Synced to `https://github.com/mdyasar49/daasho-recruitment-automation`.
