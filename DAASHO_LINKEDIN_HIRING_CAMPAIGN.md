@@ -68,9 +68,15 @@ What we offer:
 ✉️ Official HR Email: mohamed.yasar@daasho.com
 🌐 Website: https://daasho.com
 
-Know someone looking for a great sales launchpad in Chennai? Tag them below! 🙌
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+💬 HOW TO GET FAST-TRACKED:
+1. Comment "INTERESTED" below with your current city/district!
+2. Like 👍 this post for better reach!
+3. Repost 🔁 to help active job seekers & freshers in your network!
+4. Tag 👥 a friend looking for an exciting sales career in Chennai!
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-#WeAreHiring #BDEHiring #BusinessDevelopmentExecutive #SalesJobs #FieldSales #ChennaiJobs #ChennaiHiring #TamilNaduJobs #ImmediateJoiners #SalesHiring #FreshersWelcome #JobOpportunity #Recruitment #JobOpening #Daasho
+#WeAreHiring #BDEHiring #BusinessDevelopmentExecutive #SalesJobs #FieldSales #ChennaiJobs #ChennaiHiring #TamilNaduJobs #ImmediateJoiners #SalesHiring #FreshersWelcome #JobOpportunity #Recruitment #JobOpening #Daasho #DaashoCareers
 ```
 
 ---
@@ -100,7 +106,10 @@ Daasho is expanding its Field Sales & Merchant Onboarding team in Chennai. If yo
 👉 Apply via this quick form: https://mdyasar49.github.io/daasho-recruitment-automation/
 📲 Or WhatsApp your profile to: +91 9025943184 | mohamed.yasar@daasho.com
 
-Tag a friend who is actively looking for sales openings in Chennai! 👇
+💬 Drop a comment with "INTERESTED" & your city to get your profile prioritized!
+👍 Like this post to show your support!
+🔁 REPOST to share this opportunity with job seekers in Chennai!
+👥 Tag a friend who is actively looking for high-incentive sales jobs!
 
 #ChennaiHiring #BDEJobs #FieldSalesExecutive #MerchantOnboarding #ChennaiSales #DaashoCareers #FreshersJobsChennai #TamilJobs #StartupHiring
 ```
@@ -132,6 +141,11 @@ Ungalukku local restaurants & grocery merchants kitta direct-ah pesi onboard pan
 📲 WhatsApp your Resume: +91 9025943184 | mohamed.yasar@daasho.com
 
 Ungal friends yaarachum Chennai-la sales job theduraangala? Intha post-la tag pannunga! 👇
+
+👍 Like pannunga — Niraiya job seekers-kku reach aagum!
+💬 "INTERESTED" nu ungal oor-oda comment pannunga — Udane resume review pandrom!
+🔁 REPOST & SHARE pannunga — Need-la irukra oru friend-kku help aagum!
+👥 Tag your friends in the comments below!
 
 #Daasho #ChennaiJobs #FieldSales #SalesJobs #BDEHiring #TamilNaduHiring #ImmediateJoiner #FreshersWelcome
 ```
