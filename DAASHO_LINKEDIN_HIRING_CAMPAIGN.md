@@ -63,8 +63,8 @@ What we offer:
 📈 Fast-track career growth in a hyper-growth tech startup
 
 🔗 How to Apply:
-👉 1-Minute Google Form: https://docs.google.com/forms/d/e/1FAIpQLSfYHrNmFmjpXrHqRBDEw1HLGBpoWu8SZsBVg8W9N56A_H2O4w/viewform
-🌐 Or Apply via Web Portal: https://mdyasar49.github.io/daasho-recruitment-automation/
+👉 1-Minute Google Form: https://docs.google.com/forms/d/e/1FAIpQLSdsmns06IpAYu_u57BmCj4xC_Ql0RgP4P_hdoE9IQEfGt_sng/viewform
+🌐 Web Portal: https://mdyasar49.github.io/daasho-recruitment-automation/
 📲 Fast-track WhatsApp / Call: +91 9025943184
 ✉️ Official HR Email: mohamed.yasar@daasho.com
 🌐 Website: https://daasho.com
