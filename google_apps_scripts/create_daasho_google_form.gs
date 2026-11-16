@@ -32,6 +32,18 @@ function createDaashoHiringForm() {
   form.setAllowResponseEdits(false);
   form.setProgressBar(true);
 
+  // CRITICAL: Ensure form is 100% public (Prevents "You need access" screen)
+  try {
+    form.setRequireLogin(false);
+  } catch (e) {
+    Logger.log("setRequireLogin note: " + e);
+  }
+  try {
+    form.setLimitOneResponsePerUser(false);
+  } catch (e) {
+    Logger.log("setLimitOneResponsePerUser note: " + e);
+  }
+
   // 2. Add Questions Tailored Strictly for BDE Role
 
   // Q1: Full Name
