@@ -335,7 +335,7 @@
 
     <!-- Application Form -->
     <div class="form-card">
-      <form action="https://formsubmit.co/mohamed.yasar@daasho.com" method="POST">
+      <form action="https://formsubmit.co/mohamed.yasar@daasho.com" method="POST" enctype="multipart/form-data">
         <!-- FormSubmit config -->
         <input type="hidden" name="_cc" value="mohammedyasar7868908@gmail.com">
         <input type="hidden" name="_subject" value="🚀 New Candidate Application: Daasho BDE (Field Sales)">
@@ -466,9 +466,38 @@
           </select>
         </div>
 
+        <div class="form-section-title" style="margin-top: 30px;">
+          <span>📄 4. Resume & LinkedIn Profile (Separate Options)</span>
+        </div>
+
+        <!-- Option A: Direct File Upload -->
         <div class="form-group">
-          <label class="form-label">Resume Link or LinkedIn Profile URL (Optional)</label>
-          <input type="url" name="Resume_Or_LinkedIn" class="form-control" placeholder="https://linkedin.com/in/... or Google Drive link">
+          <label class="form-label">Option 1: Direct Resume File Upload (PDF, DOC, DOCX)</label>
+          <p class="help-text">Ungaloda mobile / laptop-la irunthu direct-ah resume file-ah upload pannalaam (Max: 10MB):</p>
+          <input type="file" name="Resume_Attachment" accept=".pdf,.doc,.docx" class="form-control" style="background: #FFFFFF; padding: 10px; cursor: pointer;">
+        </div>
+
+        <div style="text-align: center; margin: 15px 0; color: #718096; font-weight: 700; font-size: 13px;">
+          ─── OR ───
+        </div>
+
+        <!-- Option B: Google Drive Link -->
+        <div class="form-group">
+          <label class="form-label">Option 2: Google Drive Resume Link</label>
+          <div style="background: #EFF6FF; border: 1.5px solid #BFDBFE; border-radius: 10px; padding: 12px 14px; margin-bottom: 10px;">
+            <p style="font-size: 12.5px; color: #1E40AF; line-height: 1.5;">
+              📌 <strong>Google Drive வழிமுறை (Important):</strong><br>
+              Resume-ஐ Google Drive-ல் upload செய்த பின் &rarr; <strong>Share</strong> கிளிக் செய்யவும் &rarr; General Access-ல் <strong>"Anyone with the link can view"</strong> என்று மாற்றி, அந்த Public Link-ஐ கீழே Paste செய்யவும்.
+            </p>
+          </div>
+          <input type="url" name="Google_Drive_Resume_Link" class="form-control" placeholder="https://drive.google.com/file/d/.../view?usp=sharing">
+        </div>
+
+        <!-- LinkedIn URL Separate Field -->
+        <div class="form-group" style="margin-top: 25px;">
+          <label class="form-label">LinkedIn Profile URL (Optional)</label>
+          <p class="help-text">Ungaloda LinkedIn profile link (irunthaal mattum tharavum):</p>
+          <input type="url" name="LinkedIn_Profile_URL" class="form-control" placeholder="https://www.linkedin.com/in/your-username">
         </div>
 
         <button type="submit" class="submit-btn">

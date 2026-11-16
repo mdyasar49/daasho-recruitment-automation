@@ -126,10 +126,16 @@ function createDaashoHiringForm() {
     ])
     .setRequired(true);
 
-  // Q11: Resume / LinkedIn Link
+  // Q11: Resume (Google Drive Link with public view access)
   form.addTextItem()
-    .setTitle("11. Resume Link (Google Drive) or LinkedIn Profile URL")
-    .setHelpText("Paste your public Google Drive resume link or LinkedIn profile URL (optional)")
+    .setTitle("11. Resume Link (Google Drive - Anyone with link can view)")
+    .setHelpText("Upload resume to Google Drive -> Share -> Change General Access to 'Anyone with the link' (Viewer) -> Paste link here")
+    .setRequired(false);
+
+  // Q12: LinkedIn Profile URL (Separate field)
+  form.addTextItem()
+    .setTitle("12. LinkedIn Profile URL (Optional)")
+    .setHelpText("Paste your LinkedIn profile URL (e.g. https://www.linkedin.com/in/your-profile)")
     .setRequired(false);
 
   // 3. Connect to the Google Sheet
@@ -204,7 +210,8 @@ function onCandidateFormSubmit(e) {
     "• Field Sales Passion: " + candidate["8. Do you have strong interest / experience in Field Sales?"] + "\n" +
     "• Bike & License:      " + candidate["9. Do you own a Two-Wheeler (Bike/Scooter) with a valid Driving License?"] + "\n" +
     "• Joining Period:      " + candidate["10. When can you join Daasho if selected?"] + "\n" +
-    "• Resume / LinkedIn:   " + (candidate["11. Resume Link (Google Drive) or LinkedIn Profile URL"] || "Not provided") + "\n\n" +
+    "• Resume (Drive Link): " + (candidate["11. Resume Link (Google Drive - Anyone with link can view)"] || "Not provided") + "\n" +
+    "• LinkedIn Profile:    " + (candidate["12. LinkedIn Profile URL (Optional)"] || "Not provided") + "\n\n" +
     "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n" +
     "📊 View Live Google Sheet with all responses:\n" +
     "https://docs.google.com/spreadsheets/d/1kxEeoG4dVSXgl5qfDTHGf3LlyEPgMQjrlAjvWFzzZ28/edit\n\n" +
