@@ -63,7 +63,7 @@ What we offer:
 📈 Fast-track career growth in a hyper-growth tech startup
 
 🔗 How to Apply:
-👉 1-Minute Candidate Form: [PASTE_YOUR_GOOGLE_FORM_URL_HERE]
+👉 1-Minute Candidate Form: https://mdyasar49.github.io/daasho-recruitment-automation/
 📲 Fast-track WhatsApp / Call: +91 9025943184
 ✉️ Official HR Email: mohamed.yasar@daasho.com
 🌐 Website: https://daasho.com
@@ -97,7 +97,7 @@ Daasho is expanding its Field Sales & Merchant Onboarding team in Chennai. If yo
 • Direct mentorship from startup leadership
 
 🎯 Ready to make an impact?
-👉 Apply via this quick form: [PASTE_YOUR_GOOGLE_FORM_URL_HERE]
+👉 Apply via this quick form: https://mdyasar49.github.io/daasho-recruitment-automation/
 📲 Or WhatsApp your profile to: +91 9025943184 | mohamed.yasar@daasho.com
 
 Tag a friend who is actively looking for sales openings in Chennai! 👇
@@ -128,7 +128,7 @@ Ungalukku local restaurants & grocery merchants kitta direct-ah pesi onboard pan
 • Quick career growth to Team Lead
 
 🔗 Application Link:
-👉 Quick Google Form: [PASTE_YOUR_GOOGLE_FORM_URL_HERE]
+👉 Quick Application Form: https://mdyasar49.github.io/daasho-recruitment-automation/
 📲 WhatsApp your Resume: +91 9025943184 | mohamed.yasar@daasho.com
 
 Ungal friends yaarachum Chennai-la sales job theduraangala? Intha post-la tag pannunga! 👇
