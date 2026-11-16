@@ -51,7 +51,12 @@ python scripts/harvest_daasho_candidates.py --purpose hiring --query "Business D
 
 ---
 
-## 🏢 Organization
+## 🏢 Organization & Recruiter Contact
 **Daasho Technologies Private Limited**  
 Chennai, Tamil Nadu, India  
-Fast-Track Contact: `+91 9787806366`
+- **Lead Recruiter:** Mr. Mohamed Yasar (HR Executive - Recruitment)
+- **Phone / WhatsApp:** `+91 9025943184`
+- **Email:** `mohamed.yasar@daasho.com`
+- **Official Candidate Form:** [Google Form Link](https://docs.google.com/forms/d/1KHkcJbOvJBlnp7KW7BZ_Je49YV6RZZAkEqglyLs7bmg/viewform)
+- **Candidate Web Portal:** [Live Portal](https://mdyasar49.github.io/daasho-recruitment-automation/)
+- **Live Google Sheet:** [Responses Sheet](https://docs.google.com/spreadsheets/d/1kxEeoG4dVSXgl5qfDTHGf3LlyEPgMQjrlAjvWFzzZ28/edit)

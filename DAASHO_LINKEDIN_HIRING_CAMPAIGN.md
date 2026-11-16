@@ -63,7 +63,7 @@ What we offer:
 📈 Fast-track career growth in a hyper-growth tech startup
 
 🔗 How to Apply:
-👉 1-Minute Google Form: https://docs.google.com/forms/d/e/1FAIpQLSdsmns06IpAYu_u57BmCj4xC_Ql0RgP4P_hdoE9IQEfGt_sng/viewform
+👉 1-Minute Google Form: https://docs.google.com/forms/d/1KHkcJbOvJBlnp7KW7BZ_Je49YV6RZZAkEqglyLs7bmg/viewform
 🌐 Web Portal: https://mdyasar49.github.io/daasho-recruitment-automation/
 📲 Fast-track WhatsApp / Call: +91 9025943184
 ✉️ Official HR Email: mohamed.yasar@daasho.com
@@ -104,7 +104,8 @@ Daasho is expanding its Field Sales & Merchant Onboarding team in Chennai. If yo
 • Direct mentorship from startup leadership
 
 🎯 Ready to make an impact?
-👉 Apply via this quick form: https://mdyasar49.github.io/daasho-recruitment-automation/
+👉 1-Minute Google Form: https://docs.google.com/forms/d/1KHkcJbOvJBlnp7KW7BZ_Je49YV6RZZAkEqglyLs7bmg/viewform
+🌐 Web Application Portal: https://mdyasar49.github.io/daasho-recruitment-automation/
 📲 Or WhatsApp your profile to: +91 9025943184 | mohamed.yasar@daasho.com
 
 💬 Drop a comment with "INTERESTED" & your city to get your profile prioritized!
@@ -138,7 +139,8 @@ Ungalukku local restaurants & grocery merchants kitta direct-ah pesi onboard pan
 • Quick career growth to Team Lead
 
 🔗 Application Link:
-👉 Quick Application Form: https://mdyasar49.github.io/daasho-recruitment-automation/
+👉 1-Minute Google Form: https://docs.google.com/forms/d/1KHkcJbOvJBlnp7KW7BZ_Je49YV6RZZAkEqglyLs7bmg/viewform
+🌐 Web Application Portal: https://mdyasar49.github.io/daasho-recruitment-automation/
 📲 WhatsApp your Resume: +91 9025943184 | mohamed.yasar@daasho.com
 
 Ungal friends yaarachum Chennai-la sales job theduraangala? Intha post-la tag pannunga! 👇
@@ -155,11 +157,16 @@ Ungal friends yaarachum Chennai-la sales job theduraangala? Intha post-la tag pa
 
 ## 📊 Google Form & Google Sheet Integration Guide
 
-### Script:
-`google_apps_scripts/create_daasho_google_form.gs`
+### Official Form Links:
+- 🔗 **Candidate View Form:** https://docs.google.com/forms/d/1KHkcJbOvJBlnp7KW7BZ_Je49YV6RZZAkEqglyLs7bmg/viewform
+- ✏️ **Admin Edit Form:** https://docs.google.com/forms/d/1KHkcJbOvJBlnp7KW7BZ_Je49YV6RZZAkEqglyLs7bmg/edit
+- 🌐 **Live Web Application:** https://mdyasar49.github.io/daasho-recruitment-automation/
 
 ### Target Google Sheet:
-`https://docs.google.com/spreadsheets/d/1kxEeoG4dVSXgl5qfDTHGf3LlyEPgMQjrlAjvWFzzZ28/edit`
+- 📊 **Responses Sheet (`@BDE`):** https://docs.google.com/spreadsheets/d/1kxEeoG4dVSXgl5qfDTHGf3LlyEPgMQjrlAjvWFzzZ28/edit
+
+### Script:
+`google_apps_scripts/create_daasho_google_form.gs`
 
 ### 1-Minute Deployment Instructions:
 1. Open [Google Apps Script](https://script.google.com/home/projects).
