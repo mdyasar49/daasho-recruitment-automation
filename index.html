@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daasho - Business Development Executive (BDE) Application Form</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --daasho-blue: #0B3C95;
+      --daasho-blue-dark: #082A6B;
+      --daasho-yellow: #FFC107;
+      --daasho-yellow-hover: #E5AC00;
+      --bg-gray: #F4F7FC;
+      --text-dark: #1A202C;
+      --text-muted: #718096;
+      --card-bg: #FFFFFF;
+      --border-color: #E2E8F0;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+
+    body {
+      background-color: var(--bg-gray);
+      color: var(--text-dark);
+      padding: 20px 12px 60px 12px;
+      line-height: 1.5;
+    }
+
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    /* Header Card */
+    .header-card {
+      background: linear-gradient(135deg, var(--daasho-blue-dark) 0%, var(--daasho-blue) 100%);
+      border-radius: 20px;
+      padding: 32px 24px;
+      color: white;
+      text-align: center;
+      margin-bottom: 24px;
+      box-shadow: 0 10px 25px rgba(11, 60, 149, 0.15);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .header-card::after {
+      content: '';
+      position: absolute;
+      top: -40px;
+      right: -40px;
+      width: 140px;
+      height: 140px;
+      background: var(--daasho-yellow);
+      opacity: 0.15;
+      border-radius: 50%;
+    }
+
+    .logo-container {
+      margin-bottom: 16px;
+    }
+
+    .logo-img {
+      max-height: 52px;
+      background: white;
+      padding: 6px 16px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    .badge {
+      display: inline-block;
+      background-color: var(--daasho-yellow);
+      color: var(--daasho-blue-dark);
+      font-weight: 800;
+      font-size: 13px;
+      padding: 6px 14px;
+      border-radius: 30px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 12px;
+    }
+
+    .header-title {
+      font-size: 26px;
+      font-weight: 800;
+      line-height: 1.3;
+      margin-bottom: 8px;
+    }
+
+    .header-subtitle {
+      font-size: 15px;
+      color: #D2E4FF;
+      margin-bottom: 18px;
+    }
+
+    .quick-badges {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px;
+      margin-top: 14px;
+    }
+
+    .quick-badge-item {
+      background: rgba(255, 255, 255, 0.12);
+      padding: 6px 12px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    /* Fast Track Card */
+    .fast-track-card {
+      background: #FFFFFF;
+      border: 2px dashed #38A169;
+      border-radius: 16px;
+      padding: 18px 20px;
+      margin-bottom: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+    }
+
+    .fast-track-text h4 {
+      color: #22543D;
+      font-size: 16px;
+      margin-bottom: 4px;
+    }
+
+    .fast-track-text p {
+      font-size: 13px;
+      color: #4A5568;
+    }
+
+    .whatsapp-btn {
+      background-color: #25D366;
+      color: white;
+      text-decoration: none;
+      font-weight: 700;
+      padding: 10px 18px;
+      border-radius: 10px;
+      font-size: 14px;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      white-space: nowrap;
+      transition: background 0.2s;
+    }
+
+    .whatsapp-btn:hover {
+      background-color: #1EBE5D;
+    }
+
+    /* Form Container */
+    .form-card {
+      background: var(--card-bg);
+      border-radius: 20px;
+      padding: 32px 24px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.04);
+      border: 1px solid var(--border-color);
+    }
+
+    .form-section-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--daasho-blue);
+      margin-bottom: 20px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #EDF2F7;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .form-group {
+      margin-bottom: 22px;
+    }
+
+    .form-label {
+      display: block;
+      font-weight: 600;
+      font-size: 14px;
+      color: #2D3748;
+      margin-bottom: 8px;
+    }
+
+    .required {
+      color: #E53E3E;
+    }
+
+    .help-text {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-bottom: 8px;
+    }
+
+    .form-control {
+      width: 100%;
+      padding: 12px 14px;
+      border: 1.5px solid var(--border-color);
+      border-radius: 10px;
+      font-size: 15px;
+      color: var(--text-dark);
+      background-color: #FAFCFF;
+      transition: all 0.2s;
+    }
+
+    .form-control:focus {
+      outline: none;
+      border-color: var(--daasho-blue);
+      background-color: #FFFFFF;
+      box-shadow: 0 0 0 3px rgba(11, 60, 149, 0.12);
+    }
+
+    .radio-group, .select-group {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .radio-card {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 16px;
+      border: 1.5px solid var(--border-color);
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.2s;
+      background: #FAFCFF;
+    }
+
+    .radio-card:hover {
+      border-color: #CBD5E0;
+      background: #FFFFFF;
+    }
+
+    .radio-card input[type="radio"] {
+      width: 18px;
+      height: 18px;
+      accent-color: var(--daasho-blue);
+    }
+
+    .submit-btn {
+      width: 100%;
+      background: linear-gradient(135deg, var(--daasho-yellow) 0%, #F59E0B 100%);
+      color: var(--daasho-blue-dark);
+      border: none;
+      padding: 16px;
+      border-radius: 12px;
+      font-size: 17px;
+      font-weight: 800;
+      cursor: pointer;
+      box-shadow: 0 4px 14px rgba(245, 158, 11, 0.35);
+      transition: all 0.2s;
+      margin-top: 10px;
+    }
+
+    .submit-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 18px rgba(245, 158, 11, 0.45);
+    }
+
+    /* Footer Info */
+    .recruiter-footer {
+      margin-top: 28px;
+      background: #EDF2F7;
+      border-radius: 14px;
+      padding: 20px;
+      text-align: center;
+      font-size: 13px;
+      color: #4A5568;
+    }
+
+    .recruiter-footer strong {
+      color: var(--daasho-blue);
+      display: block;
+      font-size: 15px;
+      margin-bottom: 4px;
+    }
+
+    @media (max-width: 600px) {
+      .fast-track-card {
+        flex-direction: column;
+        text-align: center;
+      }
+      .whatsapp-btn {
+        width: 100%;
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Header Card -->
+    <div class="header-card">
+      <div class="logo-container">
+        <img src="creatives/lockup-on-white.png" alt="Daasho Logo" class="logo-img" onerror="this.style.display='none'">
+      </div>
+      <div class="badge">✦ We Are Hiring — Chennai ✦</div>
+      <h1 class="header-title">Business Development Executive (Field Sales)</h1>
+      <p class="header-subtitle">Everyday delivery, made affordable — food, groceries & essentials from neighborhood stores.</p>
+
+      <div class="quick-badges">
+        <span class="quick-badge-item">📍 Chennai Launch</span>
+        <span class="quick-badge-item">💰 ₹25,000+ / mo + High Incentives</span>
+        <span class="quick-badge-item">⏳ 0 - 3 Years Exp</span>
+        <span class="quick-badge-item">🗣️ Tamil Mandatory</span>
+      </div>
+    </div>
+
+    <!-- Fast-Track WhatsApp Option -->
+    <div class="fast-track-card">
+      <div class="fast-track-text">
+        <h4>⚡ Prefer 1-Click WhatsApp Application?</h4>
+        <p>Send your profile directly to HR for an instant interview schedule.</p>
+      </div>
+      <a href="https://api.whatsapp.com/send?phone=919025943184&text=Hi%20Mohamed%20Yasar,%20I%20am%20applying%20for%20the%20Daasho%20BDE%20(Field%20Sales)%20role%20in%20Chennai.%0AName:%20%0ALocation:%20%0AExperience:%20%0ATamil%20Fluency:%20Yes%0ATwo-Wheeler:%20Yes" class="whatsapp-btn" target="_blank">
+        📲 WhatsApp HR Direct
+      </a>
+    </div>
+
+    <!-- Application Form -->
+    <div class="form-card">
+      <form action="https://formsubmit.co/mohamed.yasar@daasho.com" method="POST">
+        <!-- FormSubmit config -->
+        <input type="hidden" name="_cc" value="mohammedyasar7868908@gmail.com">
+        <input type="hidden" name="_subject" value="🚀 New Candidate Application: Daasho BDE (Field Sales)">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_next" value="https://wa.me/919025943184?text=Hi%20Mohamed%20Yasar,%20I%20have%20submitted%20my%20application%20for%20the%20Daasho%20BDE%20Role!">
+
+        <div class="form-section-title">
+          <span>📋 1. Personal & Contact Details</span>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Full Name <span class="required">*</span></label>
+          <input type="text" name="Candidate_Name" class="form-control" placeholder="Enter your full name" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">WhatsApp Mobile Number <span class="required">*</span></label>
+          <p class="help-text">10-digit mobile number for interview calls and WhatsApp updates</p>
+          <input type="tel" name="Mobile_Number" class="form-control" placeholder="e.g. 9876543210" pattern="[0-9]{10}" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Email Address <span class="required">*</span></label>
+          <input type="email" name="Email_Address" class="form-control" placeholder="yourname@gmail.com" required>
+        </div>
+
+        <div class="form-section-title" style="margin-top: 30px;">
+          <span>📍 2. Location & Language Screening</span>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Current City / District <span class="required">*</span></label>
+          <p class="help-text">e.g. Chennai (Specify Area), Coimbatore, Madurai, Trichy, Salem, Tirunelveli, etc.</p>
+          <input type="text" name="Current_Location" class="form-control" placeholder="Enter your current city / district" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Are you based in Chennai or ready to relocate to Chennai? <span class="required">*</span></label>
+          <div class="radio-group">
+            <label class="radio-card">
+              <input type="radio" name="Relocation_Status" value="Already Residing in Chennai" required checked>
+              <span>Yes, I am already residing in Chennai</span>
+            </label>
+            <label class="radio-card">
+              <input type="radio" name="Relocation_Status" value="Ready to Relocate to Chennai">
+              <span>Yes, I am from Tamil Nadu and ready to relocate to Chennai immediately</span>
+            </label>
+            <label class="radio-card">
+              <input type="radio" name="Relocation_Status" value="Cannot Relocate">
+              <span>No, I cannot relocate to Chennai</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Tamil Language Fluency <span class="required">*</span> (Mandatory Requirement)</label>
+          <p class="help-text">Must be able to communicate effectively with local merchants in Tamil</p>
+          <div class="radio-group">
+            <label class="radio-card">
+              <input type="radio" name="Tamil_Fluency" value="Fluent / Native Tamil Speaker" required checked>
+              <span>Yes, Fluent / Native Tamil Speaker (+ English / others)</span>
+            </label>
+            <label class="radio-card">
+              <input type="radio" name="Tamil_Fluency" value="Fluent in Tamil Only">
+              <span>Yes, Fluent in Tamil only</span>
+            </label>
+            <label class="radio-card">
+              <input type="radio" name="Tamil_Fluency" value="Basic Tamil / No Tamil">
+              <span>Basic or No Tamil</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="form-section-title" style="margin-top: 30px;">
+          <span>💼 3. Experience & Mobility</span>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Total Work Experience <span class="required">*</span></label>
+          <select name="Total_Experience" class="form-control" required>
+            <option value="Fresher (0 Years) - Eager to learn">Fresher (0 Years) — High energy & sales mindset</option>
+            <option value="0 - 1 Year (Field Sales / Customer Facing)">0 - 1 Year (Field Sales / Customer Facing)</option>
+            <option value="1 - 2 Years (BDE / FMCG / Merchant Sales)">1 - 2 Years (BDE / Merchant Sales / Delivery)</option>
+            <option value="2 - 3 Years (Experienced Sales Professional)">2 - 3 Years (Experienced Sales Professional)</option>
+            <option value="3+ Years">3+ Years Experience</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Do you have strong interest in Field Sales & Merchant Onboarding? <span class="required">*</span></label>
+          <div class="radio-group">
+            <label class="radio-card">
+              <input type="radio" name="Field_Sales_Interest" value="Yes, highly interested in field sales" required checked>
+              <span>Yes, I love meeting merchants, pitching on-field and closing deals</span>
+            </label>
+            <label class="radio-card">
+              <input type="radio" name="Field_Sales_Interest" value="No, only looking for desk/office job">
+              <span>No, only looking for office/desk jobs</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Do you own a Two-Wheeler (Bike/Scooter) with a Valid Driving License? <span class="required">*</span></label>
+          <div class="radio-group">
+            <label class="radio-card">
+              <input type="radio" name="Bike_and_License" value="Yes, have two-wheeler and license" required checked>
+              <span>Yes, I have a two-wheeler and valid driving license</span>
+            </label>
+            <label class="radio-card">
+              <input type="radio" name="Bike_and_License" value="Have license, bike will arrange">
+              <span>I have a driving license; two-wheeler will be arranged before joining</span>
+            </label>
+            <label class="radio-card">
+              <input type="radio" name="Bike_and_License" value="No">
+              <span>No</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">When can you join if selected? <span class="required">*</span></label>
+          <select name="Notice_Period" class="form-control" required>
+            <option value="Immediate Joiner (Today / Tomorrow)">Immediate Joiner (Today / Tomorrow)</option>
+            <option value="Within 7 Days">Within 7 Days</option>
+            <option value="Within 15 Days">Within 15 Days</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Resume Link or LinkedIn Profile URL (Optional)</label>
+          <input type="url" name="Resume_Or_LinkedIn" class="form-control" placeholder="https://linkedin.com/in/... or Google Drive link">
+        </div>
+
+        <button type="submit" class="submit-btn">
+          🚀 Submit Application Now
+        </button>
+      </form>
+
+      <!-- Recruiter Footer -->
+      <div class="recruiter-footer">
+        <strong>Mr. Mohamed Yasar — HR Executive (Recruitment)</strong>
+        Daasho Technologies Private Limited, Chennai<br>
+        Direct Contact: +91 9025943184 | mohamed.yasar@daasho.com<br>
+        Official Careers: <a href="https://daasho.com" target="_blank" style="color: #0B3C95; font-weight: 600;">https://daasho.com</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
