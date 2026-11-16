@@ -64,7 +64,8 @@ What we offer:
 
 🔗 How to Apply:
 👉 1-Minute Candidate Form: [PASTE_YOUR_GOOGLE_FORM_URL_HERE]
-📲 Fast-track WhatsApp: +91 9787806366 | careers@daasho.com
+📲 Fast-track WhatsApp / Call: +91 9025943184
+✉️ Official HR Email: mohamed.yasar@daasho.com
 🌐 Website: https://daasho.com
 
 Know someone looking for a great sales launchpad in Chennai? Tag them below! 🙌
@@ -97,7 +98,7 @@ Daasho is expanding its Field Sales & Merchant Onboarding team in Chennai. If yo
 
 🎯 Ready to make an impact?
 👉 Apply via this quick form: [PASTE_YOUR_GOOGLE_FORM_URL_HERE]
-📲 Or WhatsApp your profile to: +91 9787806366
+📲 Or WhatsApp your profile to: +91 9025943184 | mohamed.yasar@daasho.com
 
 Tag a friend who is actively looking for sales openings in Chennai! 👇
 
@@ -128,7 +129,7 @@ Ungalukku local restaurants & grocery merchants kitta direct-ah pesi onboard pan
 
 🔗 Application Link:
 👉 Quick Google Form: [PASTE_YOUR_GOOGLE_FORM_URL_HERE]
-📲 WhatsApp your Resume: +91 9787806366
+📲 WhatsApp your Resume: +91 9025943184 | mohamed.yasar@daasho.com
 
 Ungal friends yaarachum Chennai-la sales job theduraangala? Intha post-la tag pannunga! 👇
 

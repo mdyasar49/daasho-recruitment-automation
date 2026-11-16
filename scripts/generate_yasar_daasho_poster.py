@@ -180,10 +180,10 @@ def generate_yasar_poster():
     # Phone & Email
     cx = 570
     draw.text((cx, footer_top + 42), "Phone / WhatsApp:", fill=(255, 193, 7), font=f_bar)
-    draw.text((cx + 175, footer_top + 38), "+91 9787806366", fill=(255, 255, 255), font=f_footer_name)
+    draw.text((cx + 175, footer_top + 38), "+91 9025943184", fill=(255, 255, 255), font=f_footer_name)
 
     draw.text((cx, footer_top + 92), "Email:", fill=(255, 193, 7), font=f_bar)
-    draw.text((cx + 65, footer_top + 92), "mohammedyasar7868908@gmail.com", fill=(255, 255, 255), font=f_bar)
+    draw.text((cx + 65, footer_top + 92), "mohamed.yasar@daasho.com", fill=(255, 255, 255), font=f_bar)
 
     draw.text((cx, footer_top + 130), "Official Website: https://daasho.com", fill=(255, 215, 64), font=f_bar_sub)
 
