@@ -22,16 +22,17 @@ All graphics follow Daasho's official brand palette:
 - **Backgrounds:** Clean White (`#FFFFFF`) & Navy Gradient
 
 ### Poster Files:
-1. `creatives/Daasho_BDE_Official_Poster.jpg` *(Ultra-Crisp 4:5 Portrait Ratio, 1080x1350 - Recommended for Mobile Feed)*
-2. `creatives/Daasho_BDE_Hiring_Poster.jpg` *(Visual Illustration Format)*
-3. `creatives/lockup-transparent.png` *(Official Transparent Logo)*
+1. `creatives/Daasho_BDE_Poster_1_RoyalBlue.jpg` *(Royal Blue `#0B3C95` & Yellow `#FFC107`, Official Logo, Full Criteria & Salary Perks - Optimal 4:5 Mobile Ratio)*
+2. `creatives/Daasho_BDE_Poster_2_LaunchEdition.jpg` *(High-Energy Yellow Launch Header, Step-by-Step 1-Minute Apply Flow)*
+3. `creatives/Daasho_BDE_Poster_3_Lifestyle.jpg` *(Photorealistic Visual of Chennai Field Sales BDE with Daasho Delivery Bike)*
+4. `creatives/lockup-transparent.png` *(Official Transparent Logo)*
 
 ---
 
 ## 📝 High-Reach LinkedIn Post Copies (BDE Role ONLY)
 
 ### 🔥 Post 1: The Authentic Daasho HR Viral Hook (Modeled Directly on Daasho Recruitment Team)
-*Attach: `creatives/Daasho_BDE_Official_Poster.jpg`*
+*Attach: `creatives/Daasho_BDE_Poster_1_RoyalBlue.jpg`*
 
 ```text
 Daasho is different. 🚀
@@ -74,7 +75,7 @@ Know someone looking for a great sales launchpad in Chennai? Tag them below! �
 ---
 
 ### 🚀 Post 2: Direct Chennai Launch Callout
-*Attach: `creatives/Daasho_BDE_Official_Poster.jpg`*
+*Attach: `creatives/Daasho_BDE_Poster_2_LaunchEdition.jpg`*
 
 ```text
 Build what Chennai will use every day. 🚀
@@ -106,7 +107,7 @@ Tag a friend who is actively looking for sales openings in Chennai! 👇
 ---
 
 ### 🤝 Post 3: High-Engagement Community Format (Tanglish / Tamil Connection)
-*Attach: `creatives/Daasho_BDE_Official_Poster.jpg`*
+*Attach: `creatives/Daasho_BDE_Poster_3_Lifestyle.jpg`*
 
 ```text
 Chennai & Tamil Nadu Sales Rockstars! 📢 Daasho-la Business Development Executive (Field Sales) role-kku urgent hiring nadakkuthu! 🛵💨

@@ -140,6 +140,23 @@ function createDaashoHiringForm() {
     Logger.log("Notice on linking sheet destination: " + e);
   }
 
+  // 4. Install Automated Email Trigger (Instant HR notification on every submission)
+  try {
+    var triggers = ScriptApp.getProjectTriggers();
+    var triggerExists = triggers.some(function(t) {
+      return t.getHandlerFunction() === "onCandidateFormSubmit";
+    });
+    if (!triggerExists) {
+      ScriptApp.newTrigger("onCandidateFormSubmit")
+        .forForm(form)
+        .onFormSubmit()
+        .create();
+      Logger.log("Created automatic email alert trigger for new candidate applications.");
+    }
+  } catch (e) {
+    Logger.log("Trigger setup note: " + e);
+  }
+
   var publishedUrl = form.getPublishedUrl();
   var editUrl = form.getEditUrl();
 
@@ -154,4 +171,44 @@ function createDaashoHiringForm() {
     publishedUrl: publishedUrl,
     editUrl: editUrl
   };
+}
+
+/**
+ * Automatically triggers when a candidate submits the application.
+ * Sends instant email notification to Daasho HR.
+ */
+function onCandidateFormSubmit(e) {
+  var itemResponses = e.response.getItemResponses();
+  var candidate = {};
+  for (var i = 0; i < itemResponses.length; i++) {
+    candidate[itemResponses[i].getItem().getTitle()] = itemResponses[i].getResponse();
+  }
+
+  var hrEmail = "mohammedyasar7868908@gmail.com";
+  var candidateName = candidate["1. Full Name"] || "Candidate";
+  var subject = "🚀 [Daasho BDE Application] " + candidateName + " - " + (candidate["4. Current Location / District"] || "Tamil Nadu");
+
+  var body = 
+    "Dear Daasho Recruitment Team,\n\n" +
+    "A new candidate has submitted an application for the Business Development Executive (Field Sales) role!\n\n" +
+    "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n" +
+    "📋 CANDIDATE SCREENING DETAILS\n" +
+    "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n" +
+    "• Full Name:           " + candidate["1. Full Name"] + "\n" +
+    "• Mobile (WhatsApp):   " + candidate["2. Mobile Number (WhatsApp Active)"] + "\n" +
+    "• Email:               " + candidate["3. Email Address"] + "\n" +
+    "• Current Location:    " + candidate["4. Current Location / District"] + "\n" +
+    "• Relocation Ready:    " + candidate["5. Are you currently in Chennai, or ready to relocate to Chennai for this role?"] + "\n" +
+    "• Tamil Fluency:       " + candidate["6. Are you fluent in Tamil? (Mandatory Requirement)"] + "\n" +
+    "• Total Experience:    " + candidate["7. Total Work Experience"] + "\n" +
+    "• Field Sales Passion: " + candidate["8. Do you have strong interest / experience in Field Sales?"] + "\n" +
+    "• Bike & License:      " + candidate["9. Do you own a Two-Wheeler (Bike/Scooter) with a valid Driving License?"] + "\n" +
+    "• Joining Period:      " + candidate["10. When can you join Daasho if selected?"] + "\n" +
+    "• Resume / LinkedIn:   " + (candidate["11. Resume Link (Google Drive) or LinkedIn Profile URL"] || "Not provided") + "\n\n" +
+    "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n" +
+    "📊 View Live Google Sheet with all responses:\n" +
+    "https://docs.google.com/spreadsheets/d/1kxEeoG4dVSXgl5qfDTHGf3LlyEPgMQjrlAjvWFzzZ28/edit\n\n" +
+    "— Daasho Recruitment Automation";
+
+  MailApp.sendEmail(hrEmail, subject, body);
 }
