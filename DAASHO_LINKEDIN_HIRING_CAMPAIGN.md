@@ -62,7 +62,7 @@ Know someone actively looking for a sales role in Chennai? Tag them in the comme
 
 Daasho is scaling its operations across Chennai! We are looking for a proactive, people-first HR Recruiter to drive bulk hiring for our Field Sales & Operations workforce.
 
-📍 Location: Chennai (Alwarpet / Guindy / Hybrid)
+📍 Location: Chennai
 💼 Experience: 1 - 3 Years in High-Volume Sourcing / Field Sales Hiring
 🗣️ Languages: Fluent Tamil & English
 
@@ -82,6 +82,45 @@ Daasho is scaling its operations across Chennai! We are looking for a proactive,
 📲 HR Direct WhatsApp: +91 9787806366
 
 #HRExecutive #TalentAcquisition #RecruiterJobs #ChennaiHR #DaashoCareers #StartupHiring #HiringNow
+```
+
+---
+
+### 🔥 Post 3: Authentic Daasho HR Viral Template (Directly Replicated from Daasho Recruitment Team)
+*This format is modeled directly from live LinkedIn posts by Daasho's Talent Acquisition team (Naveen Kumar Sekhar & Varnika Shandilya) with verified high engagement!*
+*Attach: `creatives/Daasho_BDE_Hiring_Poster.jpg`*
+
+```text
+Daasho is different. 🚀
+
+We’re a fast-growing food delivery & quick commerce platform launching soon in Chennai, and we’re building our ground team from day one. 🛵
+
+Build what Chennai will use every day. Honest prices. Zero commission. Real impact.
+
+🔥 Role: Business Development Executive (Field Sales)
+📍 Location: Chennai
+👤 Experience: 0 – 3 years (freshers / field sales / food delivery / FMCG / fintech preferred)
+💰 Salary: ₹25,000+ per month + attractive incentives
+🏍️ Two-wheeler and valid licence required
+🗣️ Tamil (Mandatory) & English
+
+What you'll do:
+✅ Onboard restaurants and local grocery stores onto Daasho
+✅ Build strong, lasting relationships with merchants
+✅ Own your area and grow with a brand at launch stage
+
+What we offer:
+🏥 Medical insurance
+🏦 PF (Provident Fund)
+📈 Fast-track career growth in a hyper-growth startup
+
+🔗 How to apply:
+👉 1-Minute Candidate Form: [Paste Google Form URL Here]
+📲 Fast-track WhatsApp: +91 9787806366
+
+Know the right person looking for a career launchpad in Chennai? Tag them below! 🙌
+
+#WeAreHiring #BDEHiring #BusinessDevelopmentExecutive #SalesJobs #FieldSales #ChennaiJobs #ChennaiHiring #ImmediateJoiners #SalesHiring #FreshersWelcome #JobOpportunity #Recruitment #JobOpening #Daasho
 ```
 
 ---
